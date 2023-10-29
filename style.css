@@ -1,0 +1,61 @@
+* {
+  font-family: "Nunito Sans", "Noto Serif Bengali";
+}
+
+@page {
+  size: A4;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.a4-page {
+  width: 210mm;
+  height: 297mm;
+  margin: 0 auto;
+  padding: 6mm;
+}
+
+/* Optional padding to keep content within A4 area */
+.padding {
+  padding: 0 10mm;
+}
+
+.footer-margin {
+  margin-top: 45px;
+}
+
+.btnCenter {
+  display: flex;
+  justify-content: center;
+}
+
+.btnCenter button {
+  margin: 0 20px;
+}
+
+@media screen and (max-width: 576px) {
+  .modal {
+    padding: 0 5px !important;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .modal-backdrop {
+    display: none;
+  }
+}
+
+.logo {
+  width: 100px;
+}
+
+#signature {
+  width: auto;
+  height: 40px;
+}
+
+.justify {
+  text-align: justify;
+}
